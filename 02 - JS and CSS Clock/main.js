@@ -11,11 +11,7 @@ function setTime() {
   const secondHandDeg = (seconds / 60) * 360 + 90;
 
   // 解決秒針在 0 秒時的閃動
-  if (secondHandDeg === 90) {
-    secondHand.style.transition = "all 0s";
-  } else {
-    secondHand.style.transition = "all 0.05s";
-  }
+  secondHandStable(secondHandDeg);
   secondHand.style.transform = `rotate(${secondHandDeg}deg)`;
 
   // 取得分鐘數與分針角度
@@ -29,4 +25,13 @@ function setTime() {
   const hourHandDeg = (hour / 12) * 360 + 90;
   console.log(hour);
   hourHand.style.transform = `rotate(${hourHandDeg}deg)`;
+}
+
+// 解決秒針在 0 秒時的閃動
+function secondHandStable(secondHandDeg) {
+  if (secondHandDeg === 90) {
+    secondHand.style.transition = "all 0s";
+  } else {
+    secondHand.style.transition = "all 0.05s";
+  }
 }
