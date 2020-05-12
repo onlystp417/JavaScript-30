@@ -13,7 +13,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | List | Section                   | Demo | 說明                                                                                                 |
 | ---- | ------------------------- | ---- | ---------------------------------------------------------------------------------------------------- |
 | 1    | Drum Kit 打鼓介面         |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/01%20-%20JavaScript%20Drum%20Kit) |
-| 2    | JS and CSS Clock 時鐘介面 |      |                                                                                                      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/02%20-%20JS%20and%20CSS%20Clock) |
+| 2    | JS and CSS Clock 時鐘介面 |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/02%20-%20JS%20and%20CSS%20Clock)  |
 | 3    |                           |      |                                                                                                      |
 | 4    |                           |      |                                                                                                      |
 | 5    |                           |      |                                                                                                      |
