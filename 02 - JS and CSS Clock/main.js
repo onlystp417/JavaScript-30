@@ -16,14 +16,12 @@ function setTime() {
 
   // 取得分鐘數與分針角度
   const min = currentTime.getMinutes();
-  console.log(min);
   const minHandDeg = (min / 60) * 360 + 90;
   minHand.style.transform = `rotate(${minHandDeg}deg)`;
 
   // 取的時數與時針角度
   const hour = currentTime.getHours();
   const hourHandDeg = (hour / 12) * 360 + 90;
-  console.log(hour);
   hourHand.style.transform = `rotate(${hourHandDeg}deg)`;
 }
 
