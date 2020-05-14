@@ -1,4 +1,4 @@
-# JavaScript 30 - Array Cardio 練習
+# JavaScript 30 - Array Cardio Day1 練習
 
 練習 Array method :
 
@@ -26,96 +26,151 @@ const inventors = [
 
 ### 練習 1. 過濾出 inventors 陣列中，16 世紀出生的發明家
 
-      ```javascript
-      const fifteenCenturyInventors = inventors.filter(
-        (inventor) => inventor.year >= 1500 && inventor.year < 1600
-      );
+```javascript
+const fifteenCenturyInventors = inventors.filter(
+  (inventor) => inventor.year >= 1500 && inventor.year < 1600
+);
 
-      console.table(fifteenCenturyInventors);
-      ```
+console.table(fifteenCenturyInventors);
+```
 
 ### 練習 2. 給出 inventors 陣列中發明家的全名
 
-      ```javascript
-      const inventorsName = inventors.map(
-        (inventor) => `${inventor.first} ${inventor.last}`
-      );
-      console.table(inventorsName);
-      ```
+```javascript
+const inventorsName = inventors.map(
+  (inventor) => `${inventor.first} ${inventor.last}`
+);
+console.table(inventorsName);
+```
 
 ### 練習 3. 將 inventors 陣列中的發明家，依據出生時間，從最早到最晚排列出來
 
-      ```javascript
-      const ageSequence = inventors.sort((a, b) => (a.year > b.year ? -1 : 1));
+```javascript
+const ageSequence = inventors.sort((a, b) => (a.year > b.year ? -1 : 1));
 
-      console.table(ageSequence);
-      ```
+console.table(ageSequence);
+```
 
 ### 練習 4. 加總 inventors 陣列中，所有發明家的歲數
 
-      ```javascript
-      const totalLiveYears = inventors.reduce((totalYears, inventor) => {
-        return totalYears + (inventor.passed - inventor.year);
-      }, 0);
+```javascript
+const totalLiveYears = inventors.reduce((totalYears, inventor) => {
+  return totalYears + (inventor.passed - inventor.year);
+}, 0);
 
-      console.log(totalLiveYears);
-      ```
+console.log(totalLiveYears);
+```
 
 ### 練習 5. 依年齡排列 inventors 陣列中的發明家順序
 
-      ```javascript
-      const liveSequence = inventors.sort((a, b) =>
-        a.passed - a.year > b.passed - b.year ? 1 : -1
-      );
+```javascript
+const liveSequence = inventors.sort((a, b) =>
+  a.passed - a.year > b.passed - b.year ? 1 : -1
+);
 
-      console.table(liveSequence);
-      ```
+console.table(liveSequence);
+```
 
 ### 練習 6. 從[維基百科：Boulevards in Paris](https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris) 中列出巴黎林蔭大道的路名中有 'de' 的
 
-      ```javascript
-      const boulevards = Array.from(
-        document.querySelectorAll(".mw-category-group a")
-      );
+```javascript
+const boulevards = Array.from(
+  document.querySelectorAll(".mw-category-group a")
+);
 
-      const boulevardWithDE = boulevards
-        .map((boulevard) => boulevard.textContent)
-        .filter((boulevardText) => boulevardText.includes("de"));
+const boulevardWithDE = boulevards
+  .map((boulevard) => boulevard.textContent)
+  .filter((boulevardText) => boulevardText.includes("de"));
 
-      console.table(boulevardWithDE);
-      ```
+console.table(boulevardWithDE);
+```
 
 ### 練習 7. 將 people 陣列中的人名依字母順序排列
 
-      ```javascript
-      const people = [
-        "Beck, Glenn", "Becker, Carl", "Beckett, Samuel", "Beddoes, Mick", "Beecher, Henry", "Beethoven, Ludwig", "Begin, Menachem", "Belloc, Hilaire", "Bellow, Saul", "Benchley, Robert", "Benenson, Peter", "Ben-Gurion, David", "Benjamin, Walter", "Benn, Tony", "Bennington, Chester", "Benson, Leana", "Bent, Silas", "Bentsen, Lloyd", "Berger, Ric", "Bergman, Ingmar", "Berio, Luciano", "Berle, Milton", "Berlin, Irving", "Berne, Eric", "Bernhard, Sandra", "Berra, Yogi", "Berry, Halle", "Berry, Wendell", "Bethea, Erin", "Bevan, Aneurin", "Bevel, Ken", "Biden, Joseph", "Bierce, Ambrose", "Biko, Steve", "Billings, Josh", "Biondo, Frank", "Birrell, Augustine", "Black, Elk", "Blair, Robert", "Blair, Tony", "Blake, William",
-      ];
+```javascript
+const people = [
+  "Beck, Glenn",
+  "Becker, Carl",
+  "Beckett, Samuel",
+  "Beddoes, Mick",
+  "Beecher, Henry",
+  "Beethoven, Ludwig",
+  "Begin, Menachem",
+  "Belloc, Hilaire",
+  "Bellow, Saul",
+  "Benchley, Robert",
+  "Benenson, Peter",
+  "Ben-Gurion, David",
+  "Benjamin, Walter",
+  "Benn, Tony",
+  "Bennington, Chester",
+  "Benson, Leana",
+  "Bent, Silas",
+  "Bentsen, Lloyd",
+  "Berger, Ric",
+  "Bergman, Ingmar",
+  "Berio, Luciano",
+  "Berle, Milton",
+  "Berlin, Irving",
+  "Berne, Eric",
+  "Bernhard, Sandra",
+  "Berra, Yogi",
+  "Berry, Halle",
+  "Berry, Wendell",
+  "Bethea, Erin",
+  "Bevan, Aneurin",
+  "Bevel, Ken",
+  "Biden, Joseph",
+  "Bierce, Ambrose",
+  "Biko, Steve",
+  "Billings, Josh",
+  "Biondo, Frank",
+  "Birrell, Augustine",
+  "Black, Elk",
+  "Blair, Robert",
+  "Blair, Tony",
+  "Blake, William",
+];
 
-      const lastNameSequence = people.sort((lastOne, nextOne) => {
-        const [aLastName, aFirstName] = lastOne.split(", ");
-        const [bLastName, bFirstName] = nextOne.split(", ");
-        return aLastName > bLastName ? 1 : -1;
-      });
+const lastNameSequence = people.sort((lastOne, nextOne) => {
+  const [aLastName, aFirstName] = lastOne.split(", ");
+  const [bLastName, bFirstName] = nextOne.split(", ");
+  return aLastName > bLastName ? 1 : -1;
+});
 
-      console.table(lastNameSequence);
-      ```
+console.table(lastNameSequence);
+```
 
 ### 練習 8. 統計 data 陣列中，每樣交通工具的數量
 
-      ```javascript
-      // Sum up the instances of each of these
-      const data = ["car", "car", "truck", "truck", "bike", "walk", "car", "van", "bike", "walk", "car", "van", "car", "truck",];
+```javascript
+// Sum up the instances of each of these
+const data = [
+  "car",
+  "car",
+  "truck",
+  "truck",
+  "bike",
+  "walk",
+  "car",
+  "van",
+  "bike",
+  "walk",
+  "car",
+  "van",
+  "car",
+  "truck",
+];
 
-      const statistics = data.reduce((obj, motor) => {
-        // 初始化每個 key 值
-        if (!obj[motor]) {
-          obj[motor] = 0;
-        }
-        // 每出現一次就累加
-        obj[motor]++;
-        return obj;
-      }, {});
+const statistics = data.reduce((obj, motor) => {
+  // 初始化每個 key 值
+  if (!obj[motor]) {
+    obj[motor] = 0;
+  }
+  // 每出現一次就累加
+  obj[motor]++;
+  return obj;
+}, {});
 
-      console.log(statistics);
-      ```
+console.log(statistics);
+```
