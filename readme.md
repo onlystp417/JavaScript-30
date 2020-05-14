@@ -16,7 +16,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | 2    | JS and CSS Clock 時鐘介面       |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/02%20-%20JS%20and%20CSS%20Clock)   |
 | 3    | CSS Variables 圖片調整介面      |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/03%20-%20CSS%20Variables)          |
 | 4    | Array Cardio Day1 陣列練習 Day1 |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/04%20-%20Array%20Cardio%20Day%201) |
-| 5    |                                 |      | [練習筆記]()                                                                                          |
+| 5    | Flex Panel Gallery 伸縮動畫     |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/05%20-%20Flex%20Panel%20Gallery)   |
 | 6    |                                 |      | [練習筆記]()                                                                                          |
 | 7    |                                 |      | [練習筆記]()                                                                                          |
 | 8    |                                 |      | [練習筆記]()                                                                                          |
