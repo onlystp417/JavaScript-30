@@ -65,21 +65,21 @@
   function draw(e) {
   	// 如果沒在畫就跳出這個功能
   	if (isNotdrawing) return;
-  	// 畫筆渲染
-  	brushStyle(e);
+  	// 塗鴉基本功能
+  	brushBasic(e);
 
   	// 顏色自動變化功能
-  	colorChanging();
+  	brushcolorChanging();
 
   	// 筆刷粗度自動改變功能
-  	brushWidth();
+  	brushWidthChanging();
   }
   ```
 
   1. 塗鴉基本功能
 
   ```javascript
-  function brushStyle(e) {
+  function brushBasic(e) {
   	// 線條樣式以 hsl 顏色設置，色相改變，飽和度 100%，亮度 50%
   	drawCxt.strokeStyle = `hsl(${hue}, 100%, 50%)`;
   	// 產生塗鴉路徑
@@ -98,7 +98,7 @@
   2. 自動改變筆刷顏色
 
   ```javascript
-  function colorChanging() {
+  function brushcolorChanging() {
   	// 色相值遞增並循環
   	hue++;
   	if (hue >= 360) {
@@ -111,7 +111,7 @@
 
   ```javascript
   // 筆刷粗度自動改變功能
-  function brushWidth() {
+  function brushWidthChanging() {
   	// 線條粗度遞增&遞減於固定範圍
   	// 遞增到 100 就會將 increaseDirection 反轉為 false
   	if (drawCxt.lineWidth === 100 || drawCxt.lineWidth === 1) {
