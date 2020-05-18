@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Console Tricks!</title>
 </head>
+
 <body>
 
   <p onClick="makeGreen()">×BREAK×DOWN×</p>
@@ -18,29 +20,68 @@
     }
 
     // Regular
+    console.log('Hello World!');
 
     // Interpolated
+    const name = 'Jinwen';
+    console.log("Hi, my name is %s ~~", name);
 
     // Styled
+    console.log('%c This is huge string!', 'font-size: 80px; color: pink; text-shadow: 15px 15px 5px purple');
 
     // warning!
+    console.warn('This is a warning!');
 
     // Error :|
+    console.error('This is an error!');
 
     // Info
+    console.info('Jinwen is a beauty~~'); // In Firefox(but not in chrome), a small "i" icon is displayed next to these items in the Web Console's log.
 
     // Testing
+    const booleanValue = false;
+    console.assert(booleanValue, 'The value is false.');
 
     // clearing
+    console.clear();
 
     // Viewing DOM Elements
+    const p = document.querySelector('p')
+    console.log(p);
+    console.dir(p);
 
     // Grouping together
+    dogs.forEach(dog => {
+      console.groupCollapsed(`${dog.name}`);
+      console.log(`Dog name is ${dog.name}`);
+      console.log(`Dog age is ${dog.age} year-old.`);
+      console.log(`Dog age is ${dog.age * 7} dog-year-old.`);
+      console.groupEnd(`${dog.name}`);
+    })
 
     // counting
+    console.count('Jinwen');
+    console.count('GenBai');
+    console.count('Jinwen');
+    console.count('Jinwen');
+    console.count('GenBai');
+    console.count('GenBai');
+    console.count('GenBai');
+    console.count('Jinwen');
+    console.count('Jinwen');
+    console.count('GenBai');
+    console.count('Jinwen');
+    console.count('GenBai');
+    console.count('GenBai');
 
     // timing
+    function latelyDo() {
+      console.time('latelyDo');
+      window.setTimeout(() => console.timeEnd('latelyDo'), 2000);
+    }
+    latelyDo();
 
   </script>
 </body>
+
 </html>
