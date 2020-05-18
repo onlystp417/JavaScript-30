@@ -6,12 +6,12 @@
 ## 練習項目
 
 1. 在開發者工具看相應的 JavaScript 程式碼。
-   打開開發者工具，查看 element，在想要查看的元素上按滑鼠右鍵，選擇 Break on -> attribute modification。
-   ![](https://i.imgur.com/SN0PT71.png)
-   接著滑鼠點按頁面上的 \<p> 元素。
-   ![](https://i.imgur.com/1BgSXnm.png)
-   開發者工具會開啟 debug 模式，並標出元素對應的 JavaScript 程式碼。
-   ![](https://i.imgur.com/PI8szGh.png)
+	- 打開開發者工具，查看 element，在想要查看的元素上按滑鼠右鍵，選擇 Break on -> attribute modification。
+	![](https://i.imgur.com/SN0PT71.png)
+	- 接著滑鼠點按頁面上的 \<p> 元素。
+	![](https://i.imgur.com/1BgSXnm.png)
+	- 開發者工具會開啟 debug 模式，並標出元素對應的 JavaScript 程式碼。
+	![](https://i.imgur.com/PI8szGh.png)
 
 2. 練習 BOM 物件 console 的方法。
 
