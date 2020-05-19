@@ -22,7 +22,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | 8    | Fun with HTML5 Canvas 小畫家塗鴉版           |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)             |
 | 9    | Dev Tools Domination 開發工具小練習          |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/09%20-%20Dev%20Tools%20Domination)                |
 | 10   | Hold Shift and Check Checkboxes 勾選中間項目 |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes) |
-| 11   |                                              |      | [練習筆記]()                                                                                                         |
+| 11   | Custom Video Player 客製影片播放介面         |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/11%20-%20Custom%20Video%20Player)                 |
 | 12   |                                              |      | [練習筆記]()                                                                                                         |
 | 13   |                                              |      | [練習筆記]()                                                                                                         |
 | 14   |                                              |      | [練習筆記]()                                                                                                         |
