@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+
+<body>
+  <h3>猜一英文單字，An _______ a day, keep the doctor away.</h3>
+  <p>直接於鍵盤輸入該單字～</p>
+  <script>
+    window.addEventListener('keyup', isCorrectCode);
+
+    // 聲明一個 keyIn 變數去接使用者的輸入
+    let keyIn = [];
+    // 聲明密碼
+    const secretCode = 'apple';
+
+    // 驗證密碼的功能
+    function isCorrectCode(e) {
+      keyIn.push(e.key);
+      // 讓陣列保持在 secretCode 的字數長度，如果超過就從把 index 為 0 值擠出去。
+      keyIn.splice(-secretCode.length - 1, keyIn.length - secretCode.length);
+      console.log(keyIn);
+      // 將 keyIn 轉成字串，如果等於 secretCode 就觸發驚喜
+      if (keyIn.join('') === secretCode) {
+        console.log('Correct!');
+        // 從 www.cornify.com 網站引入的資源，可以呼叫網頁特效
+        cornify_add();
+      }
+    }
+  </script>
+</body>
+
+</html>
