@@ -3,23 +3,27 @@ window.addEventListener("scroll", debounce(slideIn));
 
 // 緩 20 毫秒再執行函式
 function debounce(func, wait = 20, immediate = true) {
+	// 宣告時間到的變數
 	var timeout;
 	return function () {
 		var context = this; // window
 		var args = arguments; // scroll events
+
+		// 滑動中會每 20 毫秒清空 timeout 才能執行；停下來時，也是每 20 毫秒執行
 		// 等一下函式
 		var later = function () {
+			// 定義時間到為空值
 			timeout = null;
-			// 如果不是立即的，就執行 slideIn
+			// 如果不是立即的(不滾動時)，就執行 slideIn，並指定全域 window 給它（相同環境）
 			if (!immediate) func.apply(context, args);
 		};
 		// 宣告現在就執行的條件
 		var callNow = immediate && !timeout;
 		// 初始 timeout
 		clearTimeout(timeout);
-		// 給予 timeout 延遲效果（緩 20 毫秒就執行等一下函式）
+		// 定義 timeout 的延遲效果（緩 20 毫秒就執行等一下函式）
 		timeout = setTimeout(later, wait);
-		// 如果現在就執行的條件為真，就執行 slideIn
+		// 如果現在就執行的條件為真，就執行 slideIn，並指定全域 window 給它（相同環境）
 		if (callNow) func.apply(context, args);
 	};
 }
