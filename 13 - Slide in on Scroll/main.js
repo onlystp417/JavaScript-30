@@ -5,15 +5,21 @@ window.addEventListener("scroll", debounce(slideIn));
 function debounce(func, wait = 20, immediate = true) {
 	var timeout;
 	return function () {
-		var context = this,
-			args = arguments;
+		var context = this; // window
+		var args = arguments; // scroll events
+		// 等一下函式
 		var later = function () {
 			timeout = null;
+			// 如果不是立即的，就執行 slideIn
 			if (!immediate) func.apply(context, args);
 		};
+		// 宣告現在就執行的條件
 		var callNow = immediate && !timeout;
+		// 初始 timeout
 		clearTimeout(timeout);
+		// 給予 timeout 延遲效果（緩 20 毫秒就執行等一下函式）
 		timeout = setTimeout(later, wait);
+		// 如果現在就執行的條件為真，就執行 slideIn
 		if (callNow) func.apply(context, args);
 	};
 }
