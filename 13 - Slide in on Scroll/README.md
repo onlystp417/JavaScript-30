@@ -113,3 +113,11 @@
   	});
   }
   ```
+
+## 參考資料
+
+### JavaScript
+
+- [Window.innerHeight](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight)
+- [HTMLElement.offsetTop](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/offsetTop)
+- [Window.scrollY](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY)
