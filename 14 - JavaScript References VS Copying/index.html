@@ -52,6 +52,12 @@
     console.log(copyPlayers3);  // ["Wes", "Sarah", "Ryan"]
     console.log(players);      // ["Wes", "Sarah", "Ryan", "Poppy"]
 
+    // or use Array.from()
+    const copyPlayers4 = Array.from(players);
+    copyPlayers4.splice(1);
+    console.log(copyPlayers4); // ["Wes"]
+    console.log(players); // ["Wes", "Sarah", "Ryan", "Poppy"]
+
     // now when we update it, the original one isn't changed
 
     // The same thing goes for objects, let's say we have a person object
