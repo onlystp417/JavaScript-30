@@ -121,3 +121,5 @@
 - [Window.innerHeight](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight)
 - [HTMLElement.offsetTop](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/offsetTop)
 - [Window.scrollY](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY)
+- [Function.prototype.apply()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+- [Arguments 物件](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Functions/arguments)
