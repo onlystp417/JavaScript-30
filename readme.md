@@ -24,7 +24,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | 10   | Hold Shift and Check Checkboxes 勾選中間項目 |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes) |
 | 11   | Custom Video Player 客製影片播放介面         |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/11%20-%20Custom%20Video%20Player)                 |
 | 12   | Key Sequence Detection 密碼驗證              |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/12%20-%20Key%20Sequence%20Detection)              |
-| 13   |                                              |      | [練習筆記]()                                                                                                         |
+| 13   | Slide in on Scroll 視差滾動效果              |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/13%20-%20Slide%20in%20on%20Scroll)                |
 | 14   |                                              |      | [練習筆記]()                                                                                                         |
 | 15   |                                              |      | [練習筆記]()                                                                                                         |
 | 16   |                                              |      | [練習筆記]()                                                                                                         |
