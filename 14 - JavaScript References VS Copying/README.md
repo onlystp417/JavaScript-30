@@ -122,3 +122,8 @@ copyPlayers.pop();
   console.log(copyMember1.social); // {facebook: "@coolperson", instagram: "@wesbos01"}
   console.log(member.social); // {facebook: "@wesbos", instagram: "@wesbos01"}
   ```
+
+## 參考資料
+
+- [Array.prototype.concat()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+- [Object.assign()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
