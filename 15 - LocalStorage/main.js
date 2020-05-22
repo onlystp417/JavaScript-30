@@ -1,23 +1,23 @@
-// 取的 DOM 節點
+// 取得 DOM 節點
 const addItems = document.querySelector('.add-items');
 const itemsList = document.querySelector('.plates');
 const delFinished = document.querySelector('#deleteFinished');
 const delAll = document.querySelector('#deleteAll');
 const reverse = document.querySelector('#reverse');
 
-// 宣告點餐的項目，如果暫存中有資料就放進 items；如果沒有，就初始化為空陣列
-let mealItems = JSON.parse(localStorage.getItem('items')) || [];
-
-// 頁面 loading 進來時就先把有的 list 渲染到頁面上
-populateList(mealItems, itemsList);
-
 // 在表單上掛監聽，如果使用者有 submit 輸入，就把這個輸入加進 list 裡面
 addItems.addEventListener('submit', addItem);
 // 在 lists 掛上監聽，如果點擊 item 就切換 checkbox 樣式
 itemsList.addEventListener('click', toggleDone);
+// 在 delFinished 掛上監聽，如果點擊就刪除已完成項目
 delFinished.addEventListener('click', deleteFinished);
+// 在 delAll 掛上監聽，如果點擊就刪除全部項目
 delAll.addEventListener('click', deleteAll);
+// 在 reverse 掛上監聽，如果點擊就反轉 checkbox
 reverse.addEventListener('click', reverseCheck);
+
+// 宣告點餐的項目，如果暫存中有資料就放進 items；如果沒有，就初始化為空陣列
+let mealItems = JSON.parse(localStorage.getItem('items')) || [];
 
 // 把 item 加進 lists 裡面的功能
 function addItem(e) {
@@ -39,6 +39,9 @@ function addItem(e) {
   // 初始化表單
   this.reset();
 }
+
+// 頁面 loading 進來時就先把有的 list 渲染到頁面上
+populateList(mealItems, itemsList);
 
 // 把 list 放進 HTML 裡的功能
 function populateList(plates = [], plateList) {
