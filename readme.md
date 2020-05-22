@@ -26,7 +26,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | 12   | Key Sequence Detection 密碼驗證          |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/12%20-%20Key%20Sequence%20Detection)              |
 | 13   | Slide in on Scroll 視差滾動效果          |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/13%20-%20Slide%20in%20on%20Scroll)                |
 | 14   | JS Reference VS Copy 複製巢狀式物件      |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/14%20-%20JavaScript%20References%20VS%20Copying)  |
-| 15   |                                          |      | [練習筆記]()                                                                                                         |
+| 15   | LocalStorage 點餐介面                    |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/15%20-%20LocalStorage)                            |
 | 16   |                                          |      | [練習筆記]()                                                                                                         |
 | 17   |                                          |      | [練習筆記]()                                                                                                         |
 | 18   |                                          |      | [練習筆記]()                                                                                                         |
