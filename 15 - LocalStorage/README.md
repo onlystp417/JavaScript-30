@@ -141,3 +141,10 @@
     populateList(mealItems, itemsList);
   }
   ```
+
+## 參考資料
+
+- [submit event](https://developer.mozilla.org/zh-TW/docs/Web/API/HTMLFormElement/submit_event)
+- [Event.preventDefault()](https://developer.mozilla.org/zh-TW/docs/Web/API/Event/preventDefault)
+- [Window.localStorage](https://developer.mozilla.org/zh-TW/docs/Web/API/Window/localStorage)
+- [form.reset](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLFormElement/reset)
