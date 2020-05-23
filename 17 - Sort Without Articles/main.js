@@ -14,23 +14,13 @@ const bands = [
   'An Old Dog'
 ];
 
-const isAn = /^(An )/g;
-const isThe = /^(The )/g;
-const isA = /^(A )/g;
+function ignoreArticle(band) {
+  const isArticle = /^(a |an |the )/i;
+  return band.replace(isArticle, '').trim();
+}
 
-// const answer = 'An old man'.replace(isAn, '');
-// console.log(answer);
+bands.sort((a, b) => (ignoreArticle(a) > ignoreArticle(b) ? 1 : -1));
 
-const bandsNoArticle = bands.map(band => {
-  if (isAn.test(band)) {
-    return band.replace(isAn, '');
-  } else if (isThe.test(band)) {
-    return band.replace(isThe, '');
-  } else if (isA.test(band)) {
-    return band.replace(isA, '');
-  } else {
-    return band;
-  }
-});
+const bandList = document.querySelector('#bands');
 
-bandsNoArticle.sort();
+bandList.innerHTML = bands.map(band => `<li>${band}</li>`).join('');
