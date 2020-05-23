@@ -29,7 +29,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | 15   | LocalStorage 點餐介面                    |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/15%20-%20LocalStorage)                            |
 | 16   | Mouse Shadow 滑鼠軌跡動畫                |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/16%20-%20Mouse%20Move%20Shadow)                   |
 | 17   | Sort Without Articles 忽略冠詞的排序     |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/17%20-%20Sort%20Without%20Articles)               |
-| 18   |                                          |      | [練習筆記]()                                                                                                         |
+| 18   | Videos 影片時間加總                      |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/18%20-%20Adding%20Up%20Times%20with%20Reduce)     |
 | 19   |                                          |      | [練習筆記]()                                                                                                         |
 | 20   |                                          |      | [練習筆記]()                                                                                                         |
 | 21   |                                          |      | [練習筆記]()                                                                                                         |
