@@ -27,7 +27,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | 13   | Slide in on Scroll 視差滾動效果          |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/13%20-%20Slide%20in%20on%20Scroll)                |
 | 14   | JS Reference VS Copy 複製巢狀式物件      |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/14%20-%20JavaScript%20References%20VS%20Copying)  |
 | 15   | LocalStorage 點餐介面                    |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/15%20-%20LocalStorage)                            |
-| 16   |                                          |      | [練習筆記]()                                                                                                         |
+| 16   | Mouse Shadow 滑鼠軌跡動畫                |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/16%20-%20Mouse%20Move%20Shadow)                   |
 | 17   |                                          |      | [練習筆記]()                                                                                                         |
 | 18   |                                          |      | [練習筆記]()                                                                                                         |
 | 19   |                                          |      | [練習筆記]()                                                                                                         |
