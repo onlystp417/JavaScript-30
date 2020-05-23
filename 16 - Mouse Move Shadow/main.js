@@ -33,7 +33,7 @@ function makingShadow(scopeWidth, scopeHeight, x, y) {
   const xMove = Math.round((x / scopeWidth) * move) - move / 2;
   const yMove = Math.round((y / scopeHeight) * move) - move / 2;
 
-  // 做出上下左右的位移影子
+  // 將影子效果渲染至頁面
   text.style.textShadow = `
     ${xMove}px ${yMove}px #7878aa,
     ${-xMove}px ${yMove}px #aa8787,
