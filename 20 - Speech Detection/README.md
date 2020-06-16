@@ -55,3 +55,12 @@
     }
   });
   ```
+
+## 參考資料
+
+- [使用 Web Speech API | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
+- [SpeechRecognition | MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
+- [SpeechRecognitionResult.isFinal | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/SpeechRecognitionResult/isFinal)
+- [SpeechRecognition: result event | MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/result_event)
+- [SpeechRecognition: end event | MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/end_event)
+- [Node.appendChild | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Node/appendChild)
