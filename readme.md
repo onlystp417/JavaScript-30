@@ -31,8 +31,8 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | 17   | Sort Without Articles 忽略冠詞的排序     |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/17%20-%20Sort%20Without%20Articles)               |
 | 18   | Videos 影片時間加總                      |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/18%20-%20Adding%20Up%20Times%20with%20Reduce)     |
 | 19   | Webcam Fun 攝影特效                      |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/19%20-%20Webcam%20Fun)                            |
-| 20   |                                          |      | [練習筆記]()                                                                                                         |
-| 21   |                                          |      | [練習筆記]()                                                                                                         |
+| 20   | Speech Detection 語音即時逐字稿            |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/20%20-%20Speech%20Detection)                      |
+| 21   | Geolocation 實作羅盤程式                                         |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/21%20-%20Geolocation)                                                                                                         |
 | 22   |                                          |      | [練習筆記]()                                                                                                         |
 | 23   |                                          |      | [練習筆記]()                                                                                                         |
 | 24   |                                          |      | [練習筆記]()                                                                                                         |
