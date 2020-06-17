@@ -33,7 +33,7 @@ a {
 }
 
 .highlight {
-  transition: all 0.2s;
+  transition: all 0.5s cubic-bezier(0.62, -0.39, 0.38, 1.41);
   border-bottom: 2px solid white;
   position: absolute;
   top: 0;
