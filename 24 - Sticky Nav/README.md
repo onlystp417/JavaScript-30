@@ -2,7 +2,7 @@
 
 navbar 動畫效果。
 
-# 步驟
+## 步驟
 
 - 取得 navbar 節點
 - 取得 navbar 高度
