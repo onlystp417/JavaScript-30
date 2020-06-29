@@ -1,5 +1,10 @@
+// 向語音 API 請求語音接口，透過這個接口來操作語音功能
 const msg = new SpeechSynthesisUtterance();
+
+// 初始化語音列表陣列
 let voices = [];
+
+// 取得 DOM 節點
 const voicesDropdown = document.querySelector('[name="voice"]');
 const options = document.querySelectorAll('[type="range"], [name="text"]');
 const speakButton = document.querySelector('#speak');

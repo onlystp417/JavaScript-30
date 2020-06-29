@@ -34,7 +34,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 | 20   | Speech Detection 語音即時逐字稿            |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/20%20-%20Speech%20Detection)                      |
 | 21   | Geolocation 實作羅盤程式                                         |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/21%20-%20Geolocation)                                                                                                         |
 | 22   | Follow Along Link hlighter 動態標記重點                                        |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/23%20-%20Speech%20Synthesis)                                                                                                         |
-| 23   |                                          |      | [練習筆記]()                                                                                                         |
+| 23   | Speech Synthesis 語音朗讀                                         |      | [練習筆記](https://github.com/onlystp417/JavaScript-30/tree/master/23%20-%20Speech%20Synthesis)                                                                                                         |
 | 24   |                                          |      | [練習筆記]()                                                                                                         |
 | 25   |                                          |      | [練習筆記]()                                                                                                         |
 | 26   |                                          |      | [練習筆記]()                                                                                                         |
