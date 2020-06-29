@@ -17,6 +17,8 @@ function printClass(e) {
   console.log(this.classList.value);
   // 如果是 e.target，會印出按下的元素，不會印出冒泡的每一個元素
   console.log(e.target.classList.value);
+  // 防止事件在捕獲、冒泡階段傳遞
+  e.stopPropagation();
 }
 
 // 試試看第三個參數來設定單一綁定事件
