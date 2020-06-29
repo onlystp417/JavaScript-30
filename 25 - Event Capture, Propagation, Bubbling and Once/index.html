@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Understanding JavaScript's Capture</title>
 </head>
-<body class="bod">
+<body class="body">
 
   <div class="one">
     <div class="two">
@@ -12,6 +12,8 @@
       </div>
     </div>
   </div>
+
+  <button></button>
 
 <style>
   html {
@@ -40,28 +42,6 @@
   }
 </style>
 
-<button></button>
-<script>
-  const divs = document.querySelectorAll('div');
-  const button = document.querySelector('button');
-
-  function logText(e) {
-    console.log(this.classList.value);
-    // e.stopPropagation(); // stop bubbling!
-    // console.log(this);
-  }
-
-  divs.forEach(div => div.addEventListener('click', logText, {
-    capture: false,
-    once: true
-  }));
-
-  button.addEventListener('click', () => {
-    console.log('Click!!!');
-  }, {
-    once: true
-  });
-
-</script>
+<script src="./main.js"></script>
 </body>
 </html>
