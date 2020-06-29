@@ -50,6 +50,11 @@ nav {
   z-index: 1;
 }
 
+/* nav fixed */
+.navbar-effects nav {
+  position: fixed;
+}
+
 nav ul {
   margin: 0;
   padding:0;
@@ -67,11 +72,15 @@ nav li {
 
 li.logo {
   max-width: 0;
-  overflow: hidden;
   background: white;
-  transition: all .5s;
+  transition: all .8s;
   font-weight: 600;
   font-size: 30px;
+}
+
+/* logo show */
+.navbar-effects li.logo {
+  max-width: 250px;
 }
 
 li.logo a {
